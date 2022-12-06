@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/00e307d210.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+    <title>Tag Across The Netherlands</title>
+    <style>
+
+    
+    .text {
+        text-align: center;
+        width: 100%;
+      }
+      .text2 {
+        text-align: left;
+        width: 100%;
+      }
+      .text3 {
+        text-align: right;
+        width: 100%;
+      }
+
+      @font-face {
+  font-family: "sans-serif";
+  src: url("assets/Quicksand-VariableFont_wght.ttf") format("truetype");
+}
+    </style>
+</head>
+<div class="text">
+    <h1>The playing Map and Shop</h1>
+    <p>If the image is broken click on it</p>
+    <a href="TagacrossTheNl.png" download="map"> 
+        <img src="TagacrossTheNl.png" />
+    </a>
+
+<h1>Where Do I need To Go To</h1>
+</div>
+<div class="text2">
+    <h1>Person 1: Strand Schildermeer</h1>
+</div>
+<div class="text2">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1669987.591220024!2d5.373958237627747!3d52.23411314723023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b62be3d9ac8c01%3A0x292a2c754f8735b4!2sStrand%20Schildmeer!5e0!3m2!1sen!2snl!4v1670322270342!5m2!1sen!2snl" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div class="text2">
+    <h1>Person 2: Drielandenpunt</h1>
+<div class="text2">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1669987.591220024!2d5.373958237627747!3d52.23411314723023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c09a0b6cc83bef%3A0xca601f8cd66c6826!2sThe%20Three%20Country%20Point%20NL%20%2F%20B%20%2F%20D!5e0!3m2!1sen!2snl!4v1670322506998!5m2!1sen!2snl" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div class="text2">
+    <h1>Person 3: Zuidpoort Sluis </h1>
+<div class="text2">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1669987.591220024!2d5.373958237627747!3d52.23411314723023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c4a0a467cfa151%3A0x8a5be422cd4d30a0!2sZuidpoort%20Sluis!5e0!3m2!1sen!2snl!4v1670322848624!5m2!1sen!2snl" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+        
