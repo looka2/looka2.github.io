@@ -1,0 +1,27 @@
+.navbar {
+        overflow: hidden;
+        background-color: #000000;
+        top: 0;
+        width: 100%;
+      }
+      .navbar a {
+        float: left;
+        display: block;
+        color: #eeeeee;
+        text-align: center;
+        padding: 15px 18px;
+        text-decoration: none;
+        font-size: 18px;
+      }
+      .navbar a:hover {
+        color: #ffffff;
+      }
+      .container {
+        padding: 18px;
+        margin-top: 35px;
+        height: 2000px;
+      }
+.fa-bars {
+  color: #ffffff;
+  font-size: 30px;
+}

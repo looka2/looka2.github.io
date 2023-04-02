@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 
     <SCRIPT language="JavaScript">
 var password;
@@ -21,19 +24,31 @@ else { window.location="looka2.github.io";
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Syne">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
-    <title>Player2</title>
     <link href="style.css" rel="stylesheet">
+    <link href="playerhello.css" rel="stylesheet">
+    <link href="menubar.css" rel="stylesheet">
+    <title>Player2</title>
+
+
 
 </head>
-<body>
-<div class="topnav" id="myTopnav">
+<div class="navbar">
     <a href="Nlweb.html" class="active">Home</a>
-    <a href="Player1.html">Player 1</a>
-    <a href="Player2.html">Player 2</a>
-    <a href="Player3.html">Player 3</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+            <li class="nav-item">
+                <a href="Player1.html">Player 1</a>
+            <li class="nav-item">
+                <a href="Player2.html">Player 2</a>
+            <li class="nav-item">
+                <a href="Player3.html">Player 3</a>
+        </ul>
+    </div>
+
 </div>
 <div class="text">
     <h1>Welcome to your Information screen</h1>
@@ -49,16 +64,8 @@ else { window.location="looka2.github.io";
     <h2 id="Powerups">De Powerups</h2>
 
 </div>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-
-    </script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 </html>
