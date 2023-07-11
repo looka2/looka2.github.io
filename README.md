@@ -6,6 +6,5 @@
   <body>
     <p>Redirecting...</p>
     <p>Please follow <a href="https://looka2.github.io/Nlweb.html">this link</a>.</p>
-    <p>used 404 page from gaoryrt: <a href="https://github.com/gaoryrt/retro-404">https://github.com/gaoryrt/retro-404</a>.</p>
   </body>
 </html>
