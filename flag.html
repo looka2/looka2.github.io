@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="css/lightbox.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
@@ -77,6 +78,7 @@
 
 <br>
 <br>
+<br>
 
 <!-- stater -->
 <div class="p-5 text-center bg-light">
@@ -87,81 +89,19 @@
 </div>
 <h1>TEST FOR MAIN PAGE</h1>
 
-<div class="container">
-  <div class="row">
 
-    <!-- First column -->
-    <div class="col-md">
-
-      <!-- Card -->
-      <div class="card">
-        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-          <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp" class="img-fluid" />
-          <a href="#!">
-            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-          </a>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#!" class="btn btn-primary">Button</a>
-        </div>
-      </div>
-      <!-- Card -->
-
-    </div>
-    <!-- First column -->
-
-    <!-- Second column -->
-    <div class="col-md">
-
-      <!-- Card -->
-      <div class="card">
-        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-          <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/112.webp" class="img-fluid" />
-          <a href="#!">
-            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-          </a>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#!" class="btn btn-primary">Button</a>
-        </div>
-      </div>
-      <!-- Card -->
-
-    </div>
-    <!-- Second column -->
-
-    <!-- Third column -->
-    <div class="col-md">
-
-      <!-- Card -->
-      <div class="card">
-        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-          <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/113.webp" class="img-fluid" />
-          <a href="#!">
-            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-          </a>
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <a href="#!" class="btn btn-primary">Button</a>
-        </div>
-      </div>
-      <!-- Card -->
-
-    </div>
-    <!-- Third column -->
-
-  </div>
-</div>
 <!-- End your project here-->
+
+
+<script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
+</script>
+
+
+<script src="js/lightbox-plus-jquery.js.js"></script>
 <!-- MDB -->
 <script type="text/javascript" src="js/mdb.min.js"></script>
 <!-- Custom scripts -->
