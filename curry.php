@@ -254,7 +254,7 @@ echo "My first PHP script!";
 <!-- about section-->
 <section id="about">
     <div class="text">
-        <h6>working on it</h6>
+        <h6>working on it soon</h6>
 
     </div>
 </section>
